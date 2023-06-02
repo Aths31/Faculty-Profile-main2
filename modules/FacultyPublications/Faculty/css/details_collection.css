@@ -1,0 +1,77 @@
+#submit{
+
+  border-radius:5px;
+  background-image: linear-gradient(to right, #e52d27 0%, #731013 51%, #e52d27 100%);
+  color:white;
+  border:1px solid #fff;
+  float:right; 
+  clear:both;
+}
+
+    button{
+    margin:10px;
+    width: 250px;
+    height: 50px;
+    border-radius:5px;
+    background-image: linear-gradient(to right, #e52d27 0%, #731013 51%, #e52d27 100%);
+    color:white;
+    border:1px solid #fff;
+    font-size: 16px;
+    padding: 5px;
+    }
+
+  
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-size:18px;
+    }
+    a:hover{
+        color:white;
+        text-decoration:none;
+    }
+
+    label{
+        font-weight: normal!important;
+      }
+   
+      /*************** Details Show ***************************/
+       /* Style the tab */
+    .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #9F1C33;
+      }
+  
+      /* Style the buttons inside the tab */
+      .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 15px;
+        font-weight : bold;
+      }
+  
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+          background-image: linear-gradient(to right, #e52d27 0%, #731013 51%, #e52d27 100%);
+          color:whitesmoke;
+        }
+  
+        /* Create an active/current tablink class */
+        .tab button.active {
+          background-image: linear-gradient(to right, #e52d27 0%, #731013 51%, #e52d27 100%);
+          color:white;
+        }
+  
+        /* Style the tab content */
+        .tabcontent {
+          display: none;
+          padding: 6px 12px;
+          border-top: none;
+        }

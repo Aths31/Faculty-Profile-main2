@@ -1,0 +1,155 @@
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+* {
+
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+body, html {
+    height: auto;
+    font-family: Poppins-Regular, sans-serif;
+}
+
+
+
+/*---------------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+    margin: 0px;
+}
+
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+
+label {
+  display: block;
+  margin: 0;
+}
+button {
+outline: none !important;
+
+}
+
+
+          
+/*Report Generation Page*/
+/* ----------------------------All report------------------------------------- */
+#goback{
+  background-image: linear-gradient(to right, #e52d27 0%, #731013 51%, #e52d27 100%);
+  color:#ffffff;
+  border:1px solid #fff;
+  border-radius:5px;
+  margin: 10px;
+}
+html {
+min-height: auto;
+}
+
+.table td,.table th{
+border:1px solid black!important;
+}
+#pdf_individual{
+  background-image: linear-gradient(to right, #e52d27 0%, #731013 51%, #e52d27 100%);
+          border:1px solid #fff;
+          color:#fff;
+          
+          margin-right:10px;
+          }
+          
+          #btnExport{
+            background-image: linear-gradient(to right, #e52d27 0%, #731013 51%, #e52d27 100%);
+          border:1px solid #fff;
+          color:white;
+        
+          }      
+          
+/*--------------------------main_page---------------------------------  */
+
+#button_main{
+  margin:10px;
+  border-radius:5px;
+  background-image: linear-gradient(to right, #e52d27 0%, #731013 51%, #e52d27 100%);
+  color:white;
+  border:1px solid #fff;
+  font-size: 16px;
+  padding: 5px;
+  width: 250px;
+  height: 50px;
+}
+
+button{
+  margin:10px;
+  border-radius:5px;
+  background-image: linear-gradient(to right, #e52d27 0%, #731013 51%, #e52d27 100%);
+  color:white;
+  border:1px solid #fff;
+  font-size: 16px;
+  padding: 5px;
+}
+
+    .btn-group button {
+    
+      padding: 10px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    
+
+
+    a{
+        text-decoration: none;
+        color : white;
+        font-size:16px;
+    }
+    a:hover{
+        color:black;
+        text-decoration:none;
+    }
+   #hr{
+      height:5px;
+       color:gold;
+   }
+   
+/* ------------------------individual report-------------------- */
+
+.table{
+width: 100%;
+  border-collapse: collapse;
+  margin-right : 2%;
+
+  }
+  .table td,.table th{
+  padding:12px 15px;
+  border:1px solid black!important;
+  text-align: center;
+  font-size:14px;
+  }
+  .table th{
+    background-color: #9F1C33;
+    color:white;
+  }
+  .table tr:nth-child(even){
+    background-color: white;
+  }
+  
+div#chapter{
+    background-color: #e7e7e7;
+  border-radius:10px;
+  border:1px solid #9F1C33;
+}
+
+/* ------------------------report_login------------------------ */
+
+
